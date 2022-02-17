@@ -1,0 +1,185 @@
+/*--------------------------------
+	　全体構造
+--------------------------------*/
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: #000000;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.page {
+  width: 980px;
+  margin: 0 auto 0 auto;
+}
+
+.contents {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+ 
+}
+/*--------------------------------
+	　ヘッダー
+--------------------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header li {
+  margin-left: 30px;
+}
+
+/*--------------------------------
+	　メイン
+--------------------------------*/
+main {
+  width: 640px;
+  margin-right: 40px;
+}
+
+main h2 {
+  background-color: #8dc031;
+  color: #ffffff;
+  font-size: 20px;
+  width: 640px;
+  height: 50px;
+  border-radius: 5px;
+  line-height: 2.5;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*--------------------------------
+	　アサイド
+--------------------------------*/
+aside {
+  border: 5px #ff970e solid;
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+}
+
+aside h2 {
+  background-color: #ff970e;
+  color: #ffffff;
+  font-size: 20px;
+  height: 60px;
+  line-height: 3;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+aside ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+aside ul li {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+aside li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+aside li a:hover {
+  color: #8dc031;
+}
+/*--------------------------------
+	　フッター
+--------------------------------*/
+footer {
+  background-color: #24313c;
+  color: #ffffff;
+  height: 210px;
+  border-bottom: 10px #8dc031 solid;
+  border-radius: 5px 5px 0 0;
+}
+
+footer .address {
+  display: flex;
+  padding: 120px 120px 20px 120px;
+  justify-content: space-between;
+}
+
+footer small p {
+  text-align: center;
+}
+/*--------------------------------
+	　校長挨拶
+--------------------------------*/
+#greeting main {
+  margin-bottom: 100px;
+}
+
+#greeting main p {
+  line-height: 24px;
+  text-align: justify;
+}
+
+#greeting main p:nth-child(-n+3) {
+  text-align: right;
+  margin-bottom: 30px;
+}
+/*--------------------------------
+	　学校行事
+--------------------------------*/
+main table {
+  width: 640px;
+}
+
+main table tr {
+  color: #707070;
+}
+main table caption a{
+  text-decoration: none;
+  color: #000000;
+}
+
+main table caption a:hover{
+  color: #8dc031;
+}
+
+main td{
+  border:1px solid #ffffff;
+}
+
+main th {
+  background-color: #bbbbbb;
+  padding:15px 0 15px 70px;
+  border:1px solid #ffffff;
+  font-weight: normal;
+}
+
+main tbody td{
+  background-color: #dddddd;
+  padding:15px 0 15px 20px;
+  line-height: 1.2;
+}
+
+main tbody td:nth-child(odd){
+  width: 230px;
+  padding-left: 70px;
+  vertical-align: middle;
+}
+
+main tbody td:nth-child(even){
+  width: 410px;
+}
+/*--------------------------------
+	　アクセス
+--------------------------------*/
+#access main {
+  margin-bottom: 80px;
+}
